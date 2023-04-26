@@ -1,0 +1,146 @@
+.body {
+  max-width: 100%;
+  background-color: white;
+}
+
+.header {
+  background-color: black;
+  height: 100%;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-brand img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navbar .nav-item {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 11px;
+}
+
+.footer i {
+  width: 20px;
+  height: 40px;
+  color: white;
+  font-size: 23px;
+}
+
+.footer p {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer_socials {
+  margin: 11px;
+  padding: 15px;
+}
+
+.title {
+  padding: 30px;
+  text-align: center;
+  color: black;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+.main-contact {
+  display: flex;
+  padding: 20px;
+}
+
+.section_img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.col-md-4 {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.col-md-6 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 27px;
+}
+
+@media only screen and (max-width: 990px) {
+  .title {
+    padding: 15px;
+    text-align: center;
+  }
+  .section img {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cod-md-6 {
+    font-size: large;
+  }
+  .cod-md-6 p {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .logo img {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    justify-content: center;
+  }
+  .nav .links {
+    padding: 15px;
+  }
+  .nav .links li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    margin: 10px;
+    padding: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

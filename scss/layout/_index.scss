@@ -1,0 +1,53 @@
+.container {
+    .title {
+        padding: 30px;
+        text-align: center;
+        color: $secondColor;
+    }
+    .section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-family: 'Open Sans', sans-serif;
+        padding: 20px 0px;
+        gap: 10px;
+        .contact {
+            display: flex;
+            padding: 20px;
+        }
+        .nav-item {
+            width: 100%;
+            border-radius: 10%;
+            border: 2px solid black;
+            object-fit: cover;
+        }
+        .col-md-9{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .card-text {
+        font-size: 20px;
+    }
+
+
+
+
+    // .col-md-4 {
+    //     display: flex;
+    // }
+
+    // .col-md-6 {
+    //     padding: 10px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     font-size: 27px;
+    // }
+}
+    
+
+    
+
+    
+
+    
