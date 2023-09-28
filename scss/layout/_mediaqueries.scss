@@ -1,0 +1,50 @@
+@media only screen and (max-width:990px){
+    .container {
+    .title {
+        padding: 15px;
+        text-align: center;
+    }
+    .cod-md-8{
+        font-size: large;
+        & p{
+            font-size: small;
+        }
+    }
+    }
+
+}
+
+@media only screen and (max-width:576px){
+        .navbar-brand img {
+            width: 150px;
+            height: 150px;
+            padding: 15px;
+            border-radius: 90%;
+            object-fit: cover;
+            justify-content: center;
+        }
+        .nav-item{
+            text-decoration: none;
+            color: $mainColor;
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;    
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .navbar .navbar-brand img {
+          width: 150px;
+          height: 150px;
+          padding: 15px;
+          border-radius: 90%;
+          object-fit: cover;
+          justify-content: center;
+        }
+        .navbar .nav-item {
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px;
+        }
+      }
